@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-4c7HG8rNH-)
 - Live Site URL: [Live](https://grifano.github.io/FM__Single-price-grid-component/)
 
 ## My process
@@ -47,9 +47,20 @@ Users should be able to:
 
 ### What I learned
 
-```html
+I'm using the ul element to create a grid. Not sure, about using ul... but it's really easy to play with grid items (li).
 
+```html
+<ul class="join__grid">
+  <li>
+    <div class="subscription">...</div>
+  </li>
+  <li>
+    <div class="why-us">...</div>
+  </li>
+</ul>
 ```
+
+Auto-fit and minmax together create a responsive layout. The grid items fill the grid container equally, but only if the grid container is large enough to contain 240px minimum width for each. And, if they do not fit, they jump to the next row and stretch.
 
 ```css
 &__grid {
@@ -77,6 +88,7 @@ I hope that such amzing tools like [Frontend Mentor](https://www.frontendmentor.
 
 ### Useful resources
 
+[CSS-TRICKS](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) - Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`. Fill or Fit? What’s the difference?
 [Frontend Mentor](https://www.frontendmentor.io/) - Get a challenge and try to make them as close to a mockup as you can.  
 [Uxcel](https://uxcel.com?invite=EE4PBID94EEH) - improv UX/UI Design skills, by reading the article and check your new knowledge by passing a quiz.
 

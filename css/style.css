@@ -342,9 +342,11 @@ body main {
   transition: all 0.3s ease 0s;
 }
 
-.subscription__sign-up:hover {
-  background-color: #ffffff;
-  color: #2ab2af;
+@media (min-width: 768px) {
+  .subscription__sign-up:hover {
+    background-color: #ffffff;
+    color: #2ab2af;
+  }
 }
 
 .why-us {
