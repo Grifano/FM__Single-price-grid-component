@@ -1,4 +1,4 @@
-# Frontend Mentor - ???
+# Frontend Mentor - Single price grid component challenge
 
 This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -38,23 +38,36 @@ Users should be able to:
 
 ### Built with
 
-<!-- - Semantic HTML5 markup
+- Semantic HTML5 markup
 - CSS custom properties
 - SASS/SCSS
-- JavaScript
 - Flexbox
-- Responsive Web Design -->
+- CSS Grid
+- Responsive Web Design
 
 ### What I learned
 
-???
+```html
 
-```css
-???
 ```
 
-```js
-???
+```css
+&__grid {
+  color: $white;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  li {
+    padding: 40px;
+    background-color: #2bb3b1;
+    &:last-child {
+      background-color: #4abebd;
+    }
+    @media (max-width: 768px) {
+      padding: 24px;
+    }
+  }
+}
 ```
 
 ### Continued development

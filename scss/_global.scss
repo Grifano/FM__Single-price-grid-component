@@ -4,14 +4,18 @@ html {
 body {
   background-color: $bodyBg;
   font-family: $fontFamily;
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-grow: 1;
   }
 }
 
@@ -20,7 +24,7 @@ body {
   color: $attr_text-color;
   font-size: 11px;
   text-align: center;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
   bottom: 0;
@@ -54,9 +58,8 @@ body {
 // Container
 .container {
   padding: 32px;
-  @media (max-width: 375px) {
-    padding: 24px;
-  }
+  max-width: 636px;
+  margin: auto;
 }
 
 // UI control
