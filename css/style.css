@@ -233,6 +233,7 @@ body main {
   border-radius: 8px;
   -webkit-box-shadow: -6px 16px 35px rgba(124, 156, 175, 0.17);
           box-shadow: -6px 16px 35px rgba(124, 156, 175, 0.17);
+  overflow: hidden;
 }
 
 .join__top {

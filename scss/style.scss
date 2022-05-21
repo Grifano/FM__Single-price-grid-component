@@ -7,6 +7,7 @@
   letter-spacing: -0.01em;
   border-radius: 8px;
   box-shadow: -6px 16px 35px rgba(124, 156, 175, 0.17);
+  overflow: hidden;
   &__top {
     padding: 40px;
     @media (max-width: 768px) {
